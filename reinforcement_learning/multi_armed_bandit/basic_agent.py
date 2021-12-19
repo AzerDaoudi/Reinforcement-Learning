@@ -9,10 +9,10 @@ class BasicAgent:
     @abstractmethod
     def start(self):
         """
-        A method called when the agent starts
+        A method called to start agent
         """
     @abstractmethod
-    def step(self):
+    def update(self, reward_signal):
         """
         A method to update the action values from the  environment's reward
         """
